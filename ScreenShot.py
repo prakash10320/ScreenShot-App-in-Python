@@ -23,9 +23,8 @@ def take_screenshot():
         # Taking the screenshot
         my_screenshot = pyautogui.screenshot()
 
-        # Specify the directory where you want to save the screenshot
-        # Replace this path with your desired directory
-        save_directory = ("/media/prakash/Info(DATA)/Python-30dayscoding")
+        # Specify the directory where you want to save the screenshot        
+        save_directory = ("place your directory location")
 
         # Generate a timestamp to append to the filename
         timestamp = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
